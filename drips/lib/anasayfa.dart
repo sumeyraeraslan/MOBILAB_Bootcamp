@@ -26,7 +26,7 @@ class _AnasayfaState extends State<Anasayfa> {
                 ),
                 prefixIcon: Icon(Icons.search),
                 filled: true,
-                fillColor: Colors.grey[250],
+                fillColor: AppTheme.greyTheme,
               ),
             ),
             Padding(
@@ -52,41 +52,115 @@ class _AnasayfaState extends State<Anasayfa> {
               ),
             ),
             SizedBox(
-              height: 100,
+              height: 80,
               child: ListView(
                 scrollDirection: Axis.horizontal, // yatay kaydırma
                 children: [
                   Container(
-                    width: 100,
-                    height: 100,
+                    width: 80,
+                    height: 80,
                     margin: const EdgeInsets.only(right: 8),
                     decoration: BoxDecoration(
-                      borderRadius:BorderRadius.circular(80),
-                      color: Colors.grey, 
-                      image: DecorationImage(image: NetworkImage(
-                      'https://turbologo.com/articles/wp-content/uploads/2019/07/Three-Bars-adidas-logo-1.jpg',
-                      ), 
-                      fit: BoxFit.cover,
+                      borderRadius:BorderRadius.circular(100),
+                      color: AppTheme.greyTheme, 
                     ),
+                      child: Center(
+                        child: Padding(padding: const EdgeInsets.symmetric(vertical: 8.0,horizontal: 8.0),
+                        child: Image.asset('image/logo/adidas.png',
+                        width: 50,
+                        height: 50,
+                        fit: BoxFit.contain,
+                        ),
+                      ),
+                      ),
                   ),
+
+                  Container(
+                    width: 80,
+                    height: 80,
+                    margin: const EdgeInsets.only(right: 8),
+                    decoration: BoxDecoration(
+                      borderRadius:BorderRadius.circular(100),
+                      color: AppTheme.greyTheme, 
+                    ),
+                      child: Center(
+                        child: Padding(padding: const EdgeInsets.symmetric(vertical: 8.0,horizontal: 8.0),
+                        child: Image.asset('image/logo/nike.png',
+                        width: 100,
+                        height: 100,
+                        fit: BoxFit.contain,
+                        ),
+                      ),
+                      ),
                   ),
                   Container(
-                    width: 100,
-                    height: 100,
+                    width: 80,
+                    height: 80,
                     margin: const EdgeInsets.only(right: 8),
                     decoration: BoxDecoration(
-                      borderRadius:BorderRadius.circular(60),
-                      color: Colors.grey[250], 
-                      image: DecorationImage(image: NetworkImage(
-                      'https://images.squarespace-cdn.com/content/v1/5e31b33a1b5911193c47e7b5/279b45e0-3243-4e58-aee2-dd18403e2085/nike-swoosh-logo.jpeg',
-                      ), 
-                      fit: BoxFit.cover,
+                      borderRadius:BorderRadius.circular(100),
+                      color: AppTheme.greyTheme, 
                     ),
-                  ),
-                  ),
+                      child: Center( 
+                        child: Image.asset('image/logo/converse.png',
+                        height: 100,
+                        width: 100,
+                        fit: BoxFit.contain,
+                        ),
+                      ),
+                      ),
+                  Container(
+                    width: 80,
+                    height: 80,
+                    margin: const EdgeInsets.only(right: 8),
+                    decoration: BoxDecoration(
+                      borderRadius:BorderRadius.circular(100),
+                      color: AppTheme.greyTheme, 
+                    ),
+                      child: Center( 
+                        child: Image.asset('image/logo/vans.png',
+                        height: 65,
+                        width: 65,
+                        fit: BoxFit.contain,
+                        ),
+                      ),
+                      ),
+                      Container(
+                    width: 80,
+                    height: 80,
+                    margin: const EdgeInsets.only(right: 8),
+                    decoration: BoxDecoration(
+                      borderRadius:BorderRadius.circular(100),
+                      color: AppTheme.greyTheme, 
+                    ),
+                      child: Center( 
+                        child: Image.asset('image/logo/puma.png',
+                        height: 70,
+                        width: 70,
+                        fit: BoxFit.contain,
+                        ),
+                      ),
+                      ),
+                      Container(
+                    width: 80,
+                    height: 80,
+                    margin: const EdgeInsets.only(right: 8),
+                    decoration: BoxDecoration(
+                      borderRadius:BorderRadius.circular(100),
+                      color: AppTheme.greyTheme, 
+                    ),
+                      child: Center( 
+                        child: Image.asset('image/logo/jordan.png',
+                        height: 55,
+                        width: 55,
+                        fit: BoxFit.contain,
+                        ),
+                      ),
+                      ),
                 ],
               ),
             ),
+            
           ],
         ),
       ),
