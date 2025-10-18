@@ -1,4 +1,4 @@
-import 'package:drips/views/appBar.dart';
+import 'package:drips/widgets/appBar.dart';
 import 'package:flutter/material.dart';
 import '../app/theme.dart';
 
