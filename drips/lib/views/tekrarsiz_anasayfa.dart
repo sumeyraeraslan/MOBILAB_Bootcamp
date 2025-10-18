@@ -65,7 +65,7 @@ class _Anasayfa1State extends State<Anasayfa1> {
             
                   //LOGO
                   SizedBox(
-                    height: 140,
+                    height: 80,
                     child: ListView(
                       scrollDirection: Axis.horizontal, //Yana kaydırma
                       children: const [
