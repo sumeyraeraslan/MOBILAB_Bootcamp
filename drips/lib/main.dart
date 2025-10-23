@@ -1,5 +1,4 @@
-import 'package:drips/views/anasayfa.dart';
-import 'package:drips/views/tekrarsiz_anasayfa.dart';
+import 'package:drips/app/router.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,14 +10,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
+    return MaterialApp.router(
+      title: 'DRIPS',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const Anasayfa1(),
+      routerConfig: AppRouter.router,
     );
   }
 }
