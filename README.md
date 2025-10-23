@@ -20,7 +20,7 @@ Uygulama, **GoRouter** mimarisiyle çok sayfalı bir yapı üzerinde çalışmak
 
 ## 📞 İletişim
 
--**📧 [E-posta](sumeyraeraslan04@gmail.com)**
+-**📧 sumeyraeraslan04@gmail.com**
 
 -**💼 [LinkedIn](https://www.linkedin.com/in/s%C3%BCmeyra-eraslan-70791a323/)**
 
