@@ -1,18 +1,19 @@
 # 🚀 YTÜ SKYLAB MOBİLAB - DRİPS
 
 ## 📖 Hakkında
-Bu proje, **YTÜ SKYLAB Topluluğu** bünyesinde yürütülen **MOBİLAB Akademi** sürecinde örnek olarak verilen bir projenin **bireysel olarak yeniden geliştirilmiş** halidir.  
-Proje, **Flutter** teknolojisi kullanılarak oluşturulmuş olup; modern tasarım anlayışı, sayfa yönlendirmeleri ve özel widget yapılarıyla geliştirilmiştir.  
+Bu proje, **YTÜ SKYLAB Topluluğu** bünyesinde yürütülen **MOBİLAB Akademi** sürecinde örnek olarak verilen bir projenin **bireysel olarak yeniden geliştirilmiş** halidir.
+Uygulama, **Flutter** teknolojisi kullanılarak geliştirilmiş olup, modern tasarım anlayışı, sayfa yönlendirmeleri ve özel widget yapılarıyla zenginleştirilmiştir.
 
-Uygulama, **GoRouter** mimarisiyle çok sayfalı bir yapı üzerinde çalışmakta ve Flutter’da proje mimarisi, state yönetimi ve arayüz tasarımı konularında pratik yapmak amacıyla hazırlanmıştır.  
+**GoRouter** mimarisi ile çok sayfalı bir yapıya sahiptir ve Flutter’da proje mimarisi, state yönetimi ve arayüz tasarımı konularında pratik yapmak amacıyla hazırlanmıştır.
 
 
 ## 🎯 Özellikler
-- Çok sayfalı yapı için **GoRouter** mimarisi kullanılmıştır.
-- **Flutter proje mimarisi**, state yönetimi ve arayüz tasarımı konularında pratik yapılabilecek şekilde hazırlanmıştır.
-- Özel widget’lar ile kod tekrarından kaçınılmış, yapı modüler hale getirilmiştir.
+- Çok sayfalı yapı için **GoRouter** mimarisi kullanımı.
+- **Flutter proje mimarisi**, state yönetimi ve arayüz tasarımı konularında pratik imkânı.
+- Özel widget’lar ile kod tekrarının önlenmesi ve modüler yapı.
+- Modern ve kullanıcı dostu arayüz tasarımı.
 
-## Teknolojiler
+## 🛠 Teknolojiler
 - Flutter & Dart
 - GoRouter
 - VS Code
