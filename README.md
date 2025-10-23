@@ -21,9 +21,9 @@ Uygulama, **Flutter** teknolojisi kullanılarak geliştirilmiş olup, modern tas
 
 ## 📞 İletişim
 
--**📧 sumeyraeraslan04@gmail.com**
+- **📧 sumeyraeraslan04@gmail.com**
 
--**💼 [LinkedIn](https://www.linkedin.com/in/s%C3%BCmeyra-eraslan-70791a323/)**
+- **💼 [LinkedIn](https://www.linkedin.com/in/s%C3%BCmeyra-eraslan-70791a323/)**
 
--**🐙 [GitHub](https://github.com/sumeyraeraslan)**
+- **🐙 [GitHub](https://github.com/sumeyraeraslan)**
 
