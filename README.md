@@ -4,6 +4,8 @@
 Bu proje, YTÜ SKYLAB Topluluğu bünyesinde yürütülen MOBİLAB Akademi sürecinde örnek olarak verilen bir projenin bireysel olarak yeniden geliştirilmiş halidir.
 Uygulama, Flutter teknolojisi kullanılarak geliştirilmiş olup, modern tasarım anlayışı, sayfa yönlendirmeleri ve özel widget yapılarıyla zenginleştirilmiştir.
 
+Uygulama, GoRouter mimarisi ile çok sayfalı bir yapıya sahiptir ve Flutter’da proje mimarisi, state yönetimi ve arayüz tasarımı konularında pratik yapmak amacıyla hazırlanmıştır.
+
 <br>
 
 <p align="center">
